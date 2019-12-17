@@ -1,3 +1,3 @@
 <div id="accueil">
-POUR 3 EUROS SUR NOS PRODUIT NOUS FAISONS DES HEUREUX !
+<h1>Accueil</h1>
 </div>

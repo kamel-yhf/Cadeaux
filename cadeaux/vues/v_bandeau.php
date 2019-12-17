@@ -1,6 +1,6 @@
-<!--  Menu haut-->
+3euros.com une entreprise à bute non lucratif
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand" href="#">
 		<img src="images/cadeau.png" alt="logo"/>
     </a>
