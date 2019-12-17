@@ -1,8 +1,8 @@
-3euros.com une entreprise à bute non lucratif
+3euros.com une entreprise à but non lucratif
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-		<img src="images/cadeau.png" alt="logo"/>
+		<img style="height:100px" src="images/cadeau.png" alt="logo"/>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
