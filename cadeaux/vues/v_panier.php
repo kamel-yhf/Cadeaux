@@ -23,4 +23,4 @@ foreach( $lesProduitsDuPanier as $unProduit)
 }
 ?>
 <br>
-<a href=index.php?uc=gererPanier&action=passerCommande><buton>passer commende</button></a>
+<a href=index.php?uc=gererPanier&action=passerCommande><button class="btn btn-danger">passer commende</button></a>
