@@ -1,8 +1,7 @@
 ﻿<div class="message">
-<ul><li>
+<h3>
 <?php
       echo $message;
 ?>
-</li>
-</ul>
+</h3>
 </div>
