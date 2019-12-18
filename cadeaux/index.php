@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once("util/fonctions.php");
-include_once("util/class.Conf.php");
+require_once("util/fonctions.php");
+require_once("util/class.Conf.php");
 include_once("vues/v_entete.php") ;
 include_once("vues/v_bandeau.php") ;
 
