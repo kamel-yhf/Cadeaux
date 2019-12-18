@@ -1,5 +1,4 @@
 ﻿<?php
-
 function initPanier()
 {
 	if(!isset($_SESSION['produits']))
@@ -30,7 +29,6 @@ function ajouterAuPanier($idProduit)
 function getLesIdProduitsDuPanier()
 {
 	return $_SESSION['produits'];
-
 }
 
 function nbProduitsDuPanier()
