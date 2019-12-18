@@ -1,0 +1,11 @@
+body{
+    background-image: repeating-linear-gradient(white, purple);
+}
+
+#accueil{
+    text-align: center;
+}
+
+p{
+    background-color: brown;
+}
