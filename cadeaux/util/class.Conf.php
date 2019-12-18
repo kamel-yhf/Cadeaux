@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class Conf
 {   		
       	private static $serveur='mysql:host=localhost';

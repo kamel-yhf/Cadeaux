@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function initPanier()
 {
 	if(!isset($_SESSION['produits']))

@@ -1,4 +1,3 @@
-<p>3euros.com une entreprise à but non lucratif</p>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php?uc=accueil">
