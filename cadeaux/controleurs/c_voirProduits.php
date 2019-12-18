@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 initPanier();
 $action = $_REQUEST['action'];
 switch($action)
