@@ -13,7 +13,7 @@ switch($action)
 		}
 		else
 		{
-			$message = "votre panier est vide ";
+			$message = "<h2 style='text-decoration: underline'>votre panier est vide</h2> ";
 			include ("vues/v_message.php");
 		}
 		break;
@@ -53,7 +53,7 @@ switch($action)
 		{
 			$lesIdProduit = getLesIdProduitsDuPanier();
 			 $pdo->creerCommande($nom,$rue,$cp,$ville,$mail, $lesIdProduit );
-			$message = "Commande enregistrée";
+			$message = "<h2>Commande enregistrée</h2>";
 			supprimerPanier();
 			include ("vues/v_message.php");
 		}
@@ -61,7 +61,4 @@ switch($action)
 	}
 }
 
-
 ?>
-
-

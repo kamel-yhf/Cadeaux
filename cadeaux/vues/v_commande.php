@@ -1,7 +1,9 @@
-﻿<div id="creationCommande">
+﻿<div id="creationCommande" class="container">
 <form class="form" method="POST" action="index.php?uc=gererPanier&action=confirmerCommande">
    <fieldset >
-     <legend>Commande</legend>
+     <h3>Formulaire de commande</h3>
+     <br>
+     <br>
 		<p>
 			<label for="nom">Nom Prénom:</label>
 			<input id="nom" type="text" name="nom" value="<?php echo $nom ?>" >

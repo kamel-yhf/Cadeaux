@@ -1,4 +1,4 @@
-<h1>Votre Panier:</h1>
+<h2>Votre Panier:</h2>
 <?php
 
 foreach( $lesProduitsDuPanier as $unProduit) 

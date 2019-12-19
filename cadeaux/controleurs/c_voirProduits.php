@@ -1,3 +1,4 @@
+<div class="centre">
 <?php
 initPanier();
 $action = $_REQUEST['action'];
@@ -25,7 +26,7 @@ switch($action)
 		$ok = ajouterAuPanier($idProduit);
 		if(!$ok)
 		{
-			$message = "Cet article est déjà dans le panier !";
+			$message = "<h2>Cet article est déjà dans le panier </h2>";
 			include("vues/v_message.php");
 		}
 		$connexion = $pdo->getLesCategories();
@@ -36,4 +37,4 @@ switch($action)
 	}
 }
 ?>
-
+</div>

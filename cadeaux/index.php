@@ -19,6 +19,8 @@ switch($uc)
 		{include("controleurs/c_voirProduits.php");break;}
 	case 'gererPanier' :
 		{ include("controleurs/c_gestionPanier.php");break; }
+	default:
+	{ include("vues/v_erreurs.php");break; }
 }
 include("vues/v_pied.php") ;
 ?>

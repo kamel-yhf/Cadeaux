@@ -62,22 +62,17 @@ class Conf
 	public function creerCommande($nom,$rue,$cp,$ville,$mail, $lesIdProduit )
 	{
 		$req = "select max(id) as maxi from commande";
-		echo $req."<br>";
 		$res = Conf::$monPdo->query($req);
 		$laLigne = $res->fetch();
 		$maxi = $laLigne['maxi'] ;
 		$maxi++;
 		$idCommande = $maxi;
-		echo $idCommande."<br>";
-		echo $maxi."<br>";
 		$date = date('Y/m/d');
 		$req = "insert into commande values ('$idCommande','$date','$nom','$rue','$cp','$ville','$mail')";
-		echo $req."<br>";
 		$res = Conf::$monPdo->exec($req);
 		foreach($lesIdProduit as $unIdProduit)
 		{
 			$req = "insert into contenir values ('$idCommande','$unIdProduit')";
-			echo $req."<br>";
 			$res = Conf::$monPdo->exec($req);
 		}
 		
