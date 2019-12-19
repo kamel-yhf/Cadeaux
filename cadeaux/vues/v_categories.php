@@ -1,5 +1,6 @@
+
 <ul id="categories">
-<h2>categories</h2>
+<h2>categories:</h2>
 <?php
 foreach( $connexion as $uneCategorie) 
 {

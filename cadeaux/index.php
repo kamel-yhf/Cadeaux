@@ -5,7 +5,6 @@ require_once("util/class.Conf.php");
 include_once("vues/v_entete.php") ;
 include_once("vues/v_bandeau.php") ;
 
-
 if(!isset($_REQUEST['uc']))
      $uc = 'accueil';
 else
@@ -21,7 +20,6 @@ switch($uc)
 	case 'gererPanier' :
 		{ include("controleurs/c_gestionPanier.php");break; }
 }
-
 include("vues/v_pied.php") ;
 ?>
 

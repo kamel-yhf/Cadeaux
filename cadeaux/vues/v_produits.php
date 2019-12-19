@@ -12,7 +12,7 @@ foreach( $lesProduits as $unProduit)
 		<li><?php echo $description ?></li>
 		<li><?php echo " : ".$prix." Euros" ?>
 		<li><a href=index.php?uc=voirProduits&categorie=<?php echo $categorie ?>&produit=<?php echo $id ?>&action=ajouterAuPanier> 
-		 <img src="images/mettrepanier.png" TITLE="Ajouter au panier" </li></a>
+		 <img class="panier" src="images/mettrepanier.png" TITLE="Ajouter au panier" </li></a>
 	</ul>
 <?php			
 }

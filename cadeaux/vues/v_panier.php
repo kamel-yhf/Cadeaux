@@ -1,4 +1,4 @@
-<h1>Votre Panier</h1>
+<h1>Votre Panier:</h1>
 <?php
 
 foreach( $lesProduitsDuPanier as $unProduit) 
@@ -15,7 +15,7 @@ foreach( $lesProduitsDuPanier as $unProduit)
 		echo $description."($prix Euros)";
 	?>	
 	<a href="index.php?uc=gererPanier&produit=<?php echo $id ?>&action=supprimerUnProduit" onclick="return confirm('Voulez-vous vraiment retirer cet article ?');">
-	<img src="images/retirerpanier.png" TITLE="Retirer du panier" ></a>
+	<img class="panier" src="images/retirerpanier.png" TITLE="Retirer du panier" ></a>
 	
 	
 	</p>
