@@ -1,4 +1,5 @@
 <div id="accueil">
-<h1>3 euros.com</h1>
-    <img class="home" src="images/acceuil.jpg">
+    <div class="container-fluid">
+<h1 class="mt-3">3 euros.com</h1>
+    </div>
 </div>

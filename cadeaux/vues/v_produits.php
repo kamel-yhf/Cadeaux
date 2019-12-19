@@ -1,4 +1,5 @@
-<div id="produits">
+<div class="container cont">
+<div class="col-10" id="produits">
 <?php
 foreach( $lesProduits as $unProduit) 
 {
@@ -17,4 +18,5 @@ foreach( $lesProduits as $unProduit)
 <?php			
 }
 ?>
+</div>
 </div>

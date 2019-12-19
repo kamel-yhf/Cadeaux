@@ -1,6 +1,20 @@
+body {
+    background-color: rgb(223, 198, 214);
+    background-size: cover;
+    background-position: center;
+}
+
 h1{
     text-align: center;
+    font-family: 'Lobster', cursive;
 }
+
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+}
+
 .home{
     width: 100%;
 }
@@ -79,3 +93,22 @@ input:hover,
 .panier{
     width: 50;
 }
+
+.logo {
+    height: 90px;
+}
+
+li {
+    font-size: 32px;
+    font-family: 'Lobster', cursive; 
+}
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
