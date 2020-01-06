@@ -109,4 +109,7 @@ li {
 
 .erreur{
     background-image: url("images/404-error.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
