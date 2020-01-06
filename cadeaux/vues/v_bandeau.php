@@ -9,8 +9,8 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
 	 		 <li class="nav-item active"><a class="nav-link" href="index.php?uc=accueil"> Accueil </a></li>
-			 <li class="nav-item"><a class="nav-link" href="index.php?uc=voirProduits&action=voirCategories"> Catalogue </a></li>
-			 <li class="nav-item"><a class="nav-link" href="index.php?uc=gererPanier&action=voirPanier"> Panier </a></li>
+			 <li class="nav-item"><a class="nav-link" href="index.php?uc=voirProduits&categorie=book&action=voirProduits"> Catalogue </a></li>
+			 <li class="nav-item"><a class="nav-link" href="index.php?uc=gererPanier&produit=l01&action=supprimerUnProduit"> Panier </a></li>
       </ul>
     </div>
   </div>

@@ -1,4 +1,3 @@
 <body id="accueil">
-   
-    
+
 </body>

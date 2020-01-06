@@ -1,5 +1,5 @@
 
-<ul id="categories" class="list-group col-2 mt-5 ml-4 mr-4">
+<ul id="categories" class="list-group col-2 mt-5 ml-4">
 <h2>catégories</h2>
 <?php
 foreach( $connexion as $uneCategorie) 

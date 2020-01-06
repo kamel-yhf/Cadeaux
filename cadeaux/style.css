@@ -1,16 +1,30 @@
 body {
-    background-color: rgb(223, 198, 214);
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(117, 178, 196); 
+}
+
+.pres {
+color: white;
+font-family: 'Lobster', cursive;
+font-size: 24px;
 }
 
 #accueil{
     background-image: url("images/acceuil.png");
+    background-size: cover;
+}
+
+.list-group {
+    background-color: rgb(117, 178, 196);
 }
 
 h1{
     text-align: center;
     font-family: 'Lobster', cursive;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 h2 {
@@ -80,12 +94,14 @@ input {
     font: 1em "Trebuchet MS", Arial, sans-serif;
 }
 
+
+
 .panier{
     width: 30;
 }
 
 .logo {
-    height: 90px;
+    height: 60px;
 }
 
 li {
@@ -112,4 +128,13 @@ li {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p {
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+
+#img-pannier {
+    margin-bottom: 10px;
 }

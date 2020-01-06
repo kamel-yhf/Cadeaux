@@ -36,7 +36,7 @@ switch($action)
 		}
 		else
 		{
-			$message = "panier vide !!";
+			$message = "<h2>votre panier est vide</h2>";
 			include ("vues/v_message.php");
 		}
 		break;
